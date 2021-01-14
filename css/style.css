@@ -1,0 +1,53 @@
+body {
+    
+    background-color: #e3fff5;
+    font-family: candara;
+    font-size: 10px;
+    color: #230e36;
+    
+}
+
+h1 {
+    
+    border-bottom-width: thick;
+    border-bottom-style: double;
+    color: red;
+    font-size: 16px;
+    
+}
+
+a:link {
+    
+    color: #d95016;
+    text-decoration-style: dashed;
+    text-decoration-line: underline;
+    
+}
+
+a:visited {
+    
+    color: #8a561c;
+    
+}
+
+a:hover {
+    
+    color: #f24cf5;
+    
+}
+
+a:active{
+    
+    color: #8cc23c;
+    
+}
+
+figcaption {
+    
+    float: right;
+    margin-right: 30%;
+    color: #52227d;
+    text-decoration-line: underline;
+    text-decoration-style: dotted;
+    
+}

@@ -1,35 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <!---The heading with usefull information author, encoding and description.-->
+        <!---The heading with usefull information author, encoding, description and link to css styling.-->
         <title>Exercises Sonja Sundell</title>
         <meta charset="utf-8">
         <meta name="author" content="Sonja Sundell">
         <meta name="description" content="This page is for exercises.">
+        <link href="css/style.css" rel="stylesheet" type="text/css">
     </head>
     <body>
+        
         <!--Part of the exercise 2 a list for other pages.-->
         <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="aboutus.html">About us</a></li>
             <li><a href="projects.html">Projects</a></li>
         </ul>
+        
+        <h1>Excercises</h1>
+        
         <!-- The coding to exercise 1, a little pit of writing, image and links.-->
-        <h1>Exercise 1</h1>
+        <h2>Exercise 1</h2>
         <p>This is an example writing how to <i> italic <u>and underline</u></i>.</p>
         <p>Here is a <a href="https://www.abc.net.au/cm/rimage/12002668-16x9-xlarge.jpg?v=2" target="_blank">cute cat</a>.</p>
         <p>Here is a <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstleyVEVO" target="_blank">video</a>.</p>
         <img src="images/ghost.png" alt="This is a ghost I drew" title="Ghost">
+        
         <!---The Coding to exercise 2, an article and an address-->
-        <h1>Exercise 2</h1>
+        <h2>Exercise 2</h2>
         <article  >
-            <h2>My stepmother's dogs</h2>
-            <img src="images/pilvi&tuisku.jpg" alt="Picture of my stepmother's dogs" title="Pilvi and Tuisku" width="559,75px" height="212px"align="right">
-            <p >My stepmother has three Swedish vallhunds. They are very active dogs and are fun to play with.<br>
-                The oldest dog is called Pyry and he is very old and don't see or hear well anymore. <br>
-                The second oldest dog is Pilvi(the dog on the left) is mother of the youngest Tuisku(the dog on th right).</p>
+            <h3>My stepmother's dogs</h3>
+            <p>
+                <figure>
+                <img src="images/pilvi&tuisku.jpg" alt="Picture of my stepmother's dogs" title="Pilvi and Tuisku" width="559,75px" height="212px" align="right" style="margin-right: 20%">
+                    <figcaption>In this picture there is 2 dogs. The dog on the left is Pilvi and the dog on the right is Tuisku.</figcaption>
+                </figure>
+                My stepmother has three Swedish vallhunds. They are very active dogs and are fun to play with. 
+                The oldest dog is called Pyry and he is very old and don't see or hear well anymore. 
+                The second oldest dog is Pilvi is mother of the youngest Tuisku.
+                Swedish vallhunds are very old dog breed, they have actually old as vikings.
+                Some people say they come from Sweden and others say they come from England.
+                They are small dogs but very strong and very good shepherd dogs.
+            </p>
         </article>
         <address>Hämeen ammattikorkeakoulu HAMK PL 230 13101 Hämeenlinna</address>
+        
+        <!--This is the example of the video tag usage.-->
+        <video width="400px" height="350px" controls>
+            <source src="videos/periytyminen.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        
         <!--A footer with usefull information.-->
         <footer>
             <p>Author: Sonja Sundell</p>
