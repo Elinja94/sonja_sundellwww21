@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!---The heading with usefull information author, encoding and description.-->
+        <title>Exercise 4 Sonja Sundell</title>
+        <meta charset="utf-8">
+        <meta name="author" content="Sonja Sundell">
+        <meta name="description" content="This page is for exercise 4.">
+        <!--Styling for the website-->
+        <style>
+            
+            @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+            @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+            
+            .layout {
+                
+                display: grid;
+                grid-template-columns: 300px auto;
+                grid-template-rows: 120px auto 100px;
+                margin: -8px;
+                background-color: #f4ccff;
+                font-family: 'Oswald', sans-serif;
+                
+            }
+            
+            header {
+                
+                grid-area: 1 / 1 / 1 / last-line;
+                background-color: #060524;
+                text-align: center;
+                color: #ebfffc;
+                
+            }
+            
+            h1 {
+                
+                margin-top: 25px;
+                font-size: 50px;
+                font-family: 'Satisfy', cursive;
+                
+            }
+            
+            nav {
+                
+                grid-area: 2 / 1 / 2 / 1;
+                background-color: #957da8;
+                
+            }
+            
+            ul {
+                
+                margin-top: 40px;
+                
+            }
+            
+            li {
+                
+                margin-bottom: 30px;
+                margin-left: -20px;
+                font-size: 25px;
+                list-style-type: none;
+                
+            }
+            
+            li > a {
+                
+                text-decoration: none;
+                color: #fff9b5;
+                
+            }
+            
+            li > a:visited {
+                
+                 color: #fff9b5;
+                
+            }
+            
+            article {
+                
+                margin-left: 2%;
+                margin-right: 2%;
+                margin-bottom: 2%;
+                color: #1a0f03;
+                
+            }
+            
+            h2 {
+                
+                font-size: 35px;
+                
+            }
+            
+            article >p {
+                
+                font-size: 20px;
+                
+            }
+            
+            footer {
+                
+                grid-area: 3 / 1 / last-line / last-line;
+                background-color: #060524;
+                text-align: center;
+                color: #ebfffc;
+                
+            }
+            
+            .email {
+                
+                color: #6fd989;
+                
+            }
+            
+        </style>
+    </head>
+    <body>
+        <div class="layout">
+            
+            <!--Header with name of the page-->
+            <header>
+                <h1>Swedish vallhund</h1>
+            </header>
+            
+            <nav>
+                <ul>
+                    <li><a href="https://en.wikipedia.org/wiki/Swedish_Vallhund" target="_blank">Wikipedia</a></li>
+                    <li><a href="https://sadepilvenkennel.wordpress.com/" target="_blank">My stepmother's home page</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=iV70-jy49fg&ab_channel=Rocadog">Fact video</a></li>
+                </ul>
+            </nav>
+            <!--Some text in the web page telling about the topic-->
+            <article>
+                
+                <h2>Color variations</h2>
+                <p><img src="images/tuisku.jpg" alt="Picture of my stepmother's dog" title="Tuisku" width="200px" height="200px" align="right" class="tuisku">
+                    There are 2 common color variations brown and gray. There is also very rare white coloring which is an color error, because it is so rare. Of course the brown and the gray variations can have a different looks in them. Most of the browns are brown and beige, but there is also brown and reddish brown ones too. They are the most common type of browns. From the gray part most of them are various colors of gray, but they can be also gray with a mix of brown or beige in the under belly area.</p>
+                
+                <h2>Usage</h2>
+                <p>Swedish vallhunds are mostly used in cow breeding or as a family dog. They are very friendly when they recognize you as a owner, but be awear that they might be still very commandig towards you. As a dog breed they are old as vikings so they try to "heal" you when ever you are sick.</p>
+                
+                <img src="images/pyry&pilvi.jpg" alt="Picture of my stepmother's dogs" title="Pyry and Pilvi" width="400px" height="250px" align="left">
+                <h2>Looks</h2>
+                <p>By other than what color they are they are small dogs. Commonly they have some kind of problems with their back legs and there is also in some families very serious problems with their eyes. But other than that they are very good do use in the shows both agility and look based.</p>
+            </article>
+            
+            <!--A footer with usefull information.-->
+            <footer>
+              <p>Author: Sonja Sundell</p>
+                <p>Email  <a href="mailto:sonja.sundell@student.hamk.fi" target="_blank" class="email"> sonja.sundell@student.hamk.fi</a>.</p>
+            </footer>
+            
+        </div>
+    </body>
+</html>
