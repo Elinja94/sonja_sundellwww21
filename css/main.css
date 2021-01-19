@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Domine&family=PT+Serif&display=swap');
+
+.container {
+    
+    background-color: #fcf7de;
+    font-family: 'Domine';
+    
+}
+
+.navbar {
+    
+    background-color: #6a8072;
+    
+}
+
+.nav-link {
+    
+    color: #ffe3ff;
+    
+}
+
+h1, h2 {
+    
+    padding-top: 10px;
+    font-family: 'PT Serif';
+    
+}
+
+p {
+    
+    font-size: 16px;
+    
+}
+
+img {
+    
+    padding: 10px;
+    
+}
+
+#contactTittle {
+    
+    padding-top: 50px;
+    
+}
+
+#contact {
+    
+    color: #161c14;
+    
+}
+
+#send {
+    
+    margin-bottom: 20px;
+    background-color: #3ab312;
+    border-color: #35a310;
+    
+}
+
+#footer {
+    
+    background-color: #6a8072;
+    text-align: center;
+    color: #ffe3ff;
+    
+}
+
+#email {
+    
+    color: #ceb1e3;
+    
+}
